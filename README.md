@@ -9,7 +9,7 @@ Since you cannot do either from the Sonoff you will need to be able to do so in 
 That's where it gets hard, since many routers won't let you set fixed IP addresses based on MAC addresses.
 If you can set that up, then this app might just be the perfect Homey Sonoff app for you.
 
-You can toggle it from Homey, and toggling the Sonoff will also update the status on Homey on real time.
+You can toggle it from Homey, and toggling the Sonoff will also update the status on Homey in real time.
 It also features automatically reconnecting and retrying to send switch commands when a confirmation of the executed switch command is not received timely.
-It also features a heartbeat check to make sure the connection stays open so toggling the Sonoff will instantly update the status on Homey.
+It also features a regular heartbeat check to make sure the connection stays open so toggling the Sonoff will instantly update the status on Homey.
 So the Sonoff can trigger flows etc.
