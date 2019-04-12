@@ -13,6 +13,10 @@
       "en": "Sonoff lan",
       "nl": "Sonoff lan"
     },
+    "images": {
+      "large": "drivers/sonoffLan/assets/images/large.png",
+      "small": "drivers/sonoffLan/assets/images/small.png"
+    },
     "class": "other",
     "capabilities": [ "onoff" ],
     "pair": [{
