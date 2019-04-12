@@ -1,0 +1,67 @@
+{
+  "id": "nl.bochove.toggleSonoff",
+  "version": "0.0.1",
+  "compatibility": ">=2.0.0",
+  "sdk": 2,
+  "name": {
+    "en": "Sonoff switching",
+    "nl": "Sonoff aan en uit zetten"
+  },
+  "drivers": [{
+    "id": "sonoffLan",
+    "name": {
+      "en": "Sonoff lan",
+      "nl": "Sonoff lan"
+    },
+    "class": "other",
+    "capabilities": [ "onoff" ],
+    "pair": [{
+      "id": "start"
+    }, {
+      "id": "list_devices",
+      "template": "list_devices"
+      }
+    ],
+    "settings": [
+      {
+        "type": "group",
+        "label": {
+          "en": "Server settings",
+          "nl": "Server instellingen"
+        },
+        "children": [
+          {
+            "id": "ip",
+            "type": "text",
+            "label": {
+              "en": "ip address",
+              "nl": "ip adres"
+            },
+            "value": ""
+          }
+        ]
+      }
+    ]
+  }],
+  "flow":{
+    "actions": [
+
+    ]
+  },
+  "description": {
+    "en": "Turn a Sonoff device on and off and keep its state synchronised",
+    "nl": "Zet een Sonoff apparaat aan en uit en hou de staat gesynchroniseerd."
+  },
+  "category": [
+    "tools"
+  ],
+  "permissions": [],
+  "images": {
+    "large": "/assets/images/large.png",
+    "small": "/assets/images/small.png"
+  },
+  "author": {
+    "name": "Jonathan Bochove",
+    "email": "bochove@outlook.com"
+  }
+}

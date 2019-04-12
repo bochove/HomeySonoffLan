@@ -1,0 +1,16 @@
+{
+  "pair": {
+    "start": {
+      "intro": "Voer een naam en het vaste IP adres voor de Sonoff in lokale netwerk modus in.",
+      "title": "Aparaat zoeken...",
+      "error": "Er is een fout opgetreden",
+      "required": {
+        "name": "Een zelf gekozen naam voor deze Sonoff is verplicht",
+        "ip": "IP is verplicht"
+      },
+      "name": "Server naam",
+      "ip": "IP",
+      "saveSettings": "Apparaat toevoegen"
+    }
+  }
+}

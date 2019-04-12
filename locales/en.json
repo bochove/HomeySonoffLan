@@ -1,0 +1,16 @@
+{
+  "pair": {
+    "start": {
+      "intro": "Enter a device name and the fixed IP address for the Sonoff in lan-mode.",
+      "title": "Finding device...",
+      "error": "An error has occurred.",
+      "required": {
+        "hostname": "Devicename is required",
+        "username": "IP is required"
+      },
+      "name": "Sonoff name",
+      "ip": "IP",
+      "saveSettings": "Add device"
+    }
+  }
+}
