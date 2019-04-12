@@ -1,4 +1,4 @@
-# Jonathan van Bochove
+# Readme
 
 I wanted to be able to make use of Sonoff devices as is with a low memory usage for Homey.
 So without the need to solder things and update it's firmware.
