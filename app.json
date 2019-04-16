@@ -4,8 +4,8 @@
   "compatibility": ">=2.0.0",
   "sdk": 2,
   "name": {
-    "en": "Sonoff switching",
-    "nl": "Sonoff aan en uit zetten"
+    "en": "Sonoff LAN-mode",
+    "nl": "Sonoff in lokale netwerk modus"
   },
   "drivers": [{
     "id": "sonoffLan",
@@ -53,8 +53,8 @@
     ]
   },
   "description": {
-    "en": "Turn a Sonoff device on and off and keep its state synchronised",
-    "nl": "Zet een Sonoff apparaat aan en uit en hou de staat gesynchroniseerd."
+    "en": "Turn a Sonoff device in LAN-mode on and off and keep its state synchronised",
+    "nl": "Zet een Sonoff apparaat in lokale netwerk modus aan en uit en hou de staat gesynchroniseerd."
   },
   "category": [
     "tools"
