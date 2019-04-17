@@ -1,7 +1,7 @@
 # Readme
 
 I wanted to be able to make use of Sonoff devices as is with a low memory usage for Homey.
-So without the need to solder things and update it's firmware.
+So without the need to solder things or flash custom firmware.
 
 This has the downside that you will be required to keep the Sonoff in [lan-mode](https://help.ewelink.cc/hc/en-us/articles/360007134171-LAN-Mode-Tutorial) and give it a fixed IP address.
 Since you cannot do either from the Sonoff (yet, feature request submitted) you will need to be able to do so in your router.
